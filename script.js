@@ -19,7 +19,7 @@ function displayTasks() {
             displayTasks();
         });
 
-        li.appendChild(deleteButton);
+        li.textContent = "Task: " + task;
 
         taskList.appendChild(li);
     });
