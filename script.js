@@ -28,7 +28,7 @@ function displayTasks() {
 
         const li = document.createElement("li");
 
-        li.textContent = task;
+        li.textContent = "Task: " + task;
 
         taskList.appendChild(li);
     });
